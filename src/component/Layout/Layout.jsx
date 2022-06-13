@@ -13,9 +13,8 @@ const Layout = ({ children }) => {
   };
   return (
     <div className='min-h-screen overflow-hidden bg-primary-gray font-[Saira] text-white sm:text-sm 2xl:text-base'>
-
       {/* <-- Burger Nav Menu & Nav --> */}
-      {width < 650 ? (
+      {width < 717 ? (
         <>
           <BurderNav onToggle={onToggleHandler} />{' '}
           <BurgerMenu onToggle={onToggleHandler} open={open} />

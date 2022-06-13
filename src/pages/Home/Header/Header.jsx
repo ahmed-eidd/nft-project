@@ -36,7 +36,7 @@ const Header = () => {
           </div>
 
           {/* <-- Header Imgage --> */}
-          <div className='mr-[22px] flex h-[336px] w-[336px] flex-col items-center justify-center gap-[27px] rounded-[10px] sm:ml-auto sm:h-[553px] sm:w-[551px] 2xl:h-[863px] 2xl:w-[860px]'>
+          <div className='mr-[22px] flex h-[336px] w-[336px] flex-col items-center justify-center gap-[27px] rounded-[10px] sm:h-[553px] sm:w-[551px] 2xl:h-[863px] 2xl:w-[860px]'>
             <img
               src={HeaderImg}
               alt='header'

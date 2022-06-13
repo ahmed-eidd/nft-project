@@ -20,7 +20,7 @@ const TextIcon = ({ icon, title, text, direction = 'right', className }) => {
   }
   return (
     <div
-      className={`flex flex-col justify-between gap-[10px] md:w-[270px] 2xl:w-[320px] ${dirStyle} ${className}`}
+      className={`flex flex-col justify-between gap-[10px] md:min-w-[270px] 2xl:min-w-[320px] ${dirStyle} ${className}`}
     >
       
       {/* <-- Container of Icon & Title --> */}

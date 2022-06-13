@@ -1,9 +1,7 @@
 import React from 'react';
-import useWindowDimensions from '../../hooks/useWindowDimensions';
 import Button from '../Button/Button';
 import { Container } from '../Container/Container';
 import Logo from '../Logo/Logo';
-import BurderNav from './BurgerNav';
 
 const NavLinks = ({ text, to = '#' }) => {
   return (
